@@ -5,7 +5,6 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-
 DEFAULT_URL = "https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv"
 DEFAULT_OUTPUT = Path("data/limpio.parquet")
 
