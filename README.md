@@ -10,6 +10,7 @@
     uv run pytest -q
     uv run python main.py
     uv run python grafico_tarifa_supervivencia.py
+    uv run python graficos_adicionales.py
  
 ## Hallazgos
 - (A) La columna `Cabin` concentra la mayor cantidad de valores faltantes, por lo que no aporta suficiente información confiable para conservarla en la limpieza inicial.
