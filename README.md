@@ -20,5 +20,8 @@ Se eliminó `Cabin` porque tiene una gran proporción de valores faltantes 77.01
 - Los valores faltantes en columnas de texto se completan con la moda para conservar la mayor cantidad de datos.
 - Se normalizó el texto con `strip()` y `lower()` y luego se eliminaron duplicados.
 
-## Decisiones de limpieza
+## Preguntas de investigación
 
+1. `uv sync` puede reconstruir el entorno aunque `.venv/` no esté versionado porque usa `uv.lock`. Este archivo guarda las versiones exactas y las dependencias resueltas del proyecto, permitiendo instalar el mismo entorno en otra computadora.
+
+2. `pytest` puede ejecutarse con el Python y las dependencias disponibles en el sistema, aunque el entorno virtual no esté activado. `uv run pytest` ejecuta las pruebas dentro del entorno administrado por uv y usa las dependencias declaradas y bloqueadas del proyecto.
