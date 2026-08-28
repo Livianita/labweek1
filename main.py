@@ -1,8 +1,7 @@
 import matplotlib.pyplot as plt
 
 from src.analisis import recta_minimos_cuadrados, resumen_por_grupo, top_k
-from src.labweek1.carga import DEFAULT_URL, limpiar, cargar, reporte_nulos
-
+from src.labweek1.carga import DEFAULT_URL, cargar, limpiar, reporte_nulos
 
 if __name__ == "__main__":
     datos_crudos = cargar(DEFAULT_URL)
