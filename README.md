@@ -11,5 +11,5 @@
     uv run python main.py
  
 ## Hallazgos
- 
+- (B) Se observa una tasa de sobrevivientes mayor relacionada con el mayor costo del boleto 
 ## Decisiones de limpieza
